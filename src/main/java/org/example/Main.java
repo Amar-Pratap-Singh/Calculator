@@ -50,7 +50,8 @@ public class Main {
 
         // take input
         if (choice == 1){
-            add(a, b);
+            System.out.println("Result: " + add(a, b));
+            // add(a, b);
         }
         else if (choice == 2){
             subtract(a, b);
