@@ -38,7 +38,7 @@ public class Main {
             System.out.println("2. Subtraction");
             System.out.println("3. Multiplication");
             System.out.println("4. Division");
-            Syst    em.out.println("5. Exit");
+            System.out.println("5. Exit");
             
             Scanner sc = new Scanner(System.in);
             int choice = sc.nextInt();
