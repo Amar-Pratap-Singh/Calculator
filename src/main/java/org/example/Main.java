@@ -30,21 +30,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int choice = 1;
-
-        
         while (true){
             
-            System.out.println("-------Welcome to Calculator------");
+            System.out.println("\n-------Welcome to Calculator------\n");
             System.out.println("Choose Your Operation");
             System.out.println("1. Addition");
             System.out.println("2. Subtraction");
             System.out.println("3. Multiplication");
             System.out.println("4. Division");
-            System.out.println("5. Exit");
+            Syst    em.out.println("5. Exit");
             
-            choice = sc.nextInt();
+            Scanner sc = new Scanner(System.in);
+            int choice = sc.nextInt();
             
             // take input
             if (choice == 1){
